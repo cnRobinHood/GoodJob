@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="entities.CompanyInfo" table="companyinfo">
+        <id name="companyName"/>
+        <property name="chargePerson"/>
+        <property name="companyAddr"/>
+        <property name="companyDescribe"/>
+        <property name="companyPhoneNum"/>
+        <property name="salary"/>
+        <property name="netAddr"/>
+        <property name="position"/>
+    </class>
+    <class name="entities.CountInfo" table="countinfo">
+        <id name="username"/>
+        <property name="password"/>
+    </class>
+    <class name="entities.UserInfo" table="userinfo">
+        <id name="username"/>
+        <property name="realname"/>
+        <property name="age"/>
+        <property name="gender"/>
+        <property name="cityIntension"/>
+        <property name="jobIntension"/>
+        <property name="brief"/>
+        <property name="eduBackground"/>
+        <property name="salaryIntension"/>
+        <property name="school"/>
+        <property name="photoSrc"/>
+    </class>
+
+
+</hibernate-mapping>

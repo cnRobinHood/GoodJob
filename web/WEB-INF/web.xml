@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>registerServlet</servlet-name>
+        <servlet-class>servlets.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registerServlet</servlet-name>
+        <url-pattern>/registerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>personinfoServlet</servlet-name>
+        <servlet-class>servlets.SetPersonInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>personinfoServlet</servlet-name>
+        <url-pattern>/personinfoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>jobinfoServlet</servlet-name>
+        <servlet-class>servlets.JobInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jobinfoServlet</servlet-name>
+        <url-pattern>/jobinfoServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

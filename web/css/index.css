@@ -1,0 +1,109 @@
+/*头部*/
+div,p,body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none; 
+	color:black;
+}
+.logo_h{
+	width: 9%;
+	margin-left: 15%;
+	margin-top: 15px;
+}
+.logo{
+	width: 100%;
+}
+.title{
+	margin-left: 27%;
+	margin-top: -50px;
+	font-size: 1.4em;
+	color: #0f78ba;
+}
+.enter{
+	display: block;
+	width: 50px;
+	font-size: 1.1em;
+	margin-left: 70%;
+	margin-top: -33px;
+}
+.login{
+	display: block;
+	width: 50px;
+	font-size: 1.1em;
+	margin-left: 78%;
+	margin-top: -23px;
+}
+/*中间*/
+.back{
+	width: 100%;
+	margin-top: 40px;
+}
+/*轮播*/
+*{
+	margin:0;padding:0;
+}
+html, body {
+	width: 100%;
+}
+ul li {
+	list-style: none;
+}
+
+#box {
+	width: 1200px;
+	margin: 20px auto;
+}
+.slide {
+	margin-top: -50%;
+	height: 500px;
+	position: relative;
+}
+.slide ul {
+	height: 100%;
+}
+.slide li {
+	position: absolute;
+	left:200px;
+	top:0;
+}
+.slide li img{
+	width: 100%;
+}
+.arraw {
+	opacity: 0;
+}
+.arraw a {
+	width: 70px;
+	height: 110px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -55px;
+	z-index: 999;
+}
+.next {
+	background: url(image/right.png) no-repeat;
+	right: -10px;
+	/*opacity: .5;*/
+	/*filter: alpha(opacity=50);*/
+}
+.prev {
+	background: url(image/left.png) no-repeat;
+	left: -10px;
+}
+
+/*底部*/
+.footer{
+	height: 170px;
+	background-color: #b4b4b4;
+	margin-top: 4%;
+}
+.add1{
+	margin-left: 10%; 
+}
+.add2{
+	margin-top: -5%;
+	margin-left: 70%;
+}

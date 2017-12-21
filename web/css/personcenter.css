@@ -1,0 +1,127 @@
+/*头部*/
+div,p,body,form{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none; 
+	color:black;
+}
+.Llogo_h{
+	width: 9%;
+	margin-left: 15%;
+	margin-top: 15px;
+}
+.head{
+	height: 8px;
+	background-color: #ff9800;
+}
+.logo{
+	width: 100%;
+}
+.home{
+	font-size: 1.1em;
+	margin-left: 70%;
+	margin-top: -60px;
+}
+.modify{
+	font-size: 1.1em;
+	margin-left: 76%;
+	margin-top: -25px;
+}
+/*中间*/
+.mainL{
+	margin-top: 3%;
+	width: 10%;
+	height: 800px;
+	background-color: #b4b4b4;
+}
+.mainM{
+	margin-left: 10%;
+	margin-top: -800px;
+	width: 70%;
+	height: 800px;
+	background-color: #d5d5d5;
+}
+.mainR{
+	margin-left: 80%;
+	margin-top: -800px;
+	width: 20%;
+	height: 800px;
+	background-color: #b4b4b4;
+}
+.edit{
+	margin-left: 30%;
+	margin-top: -760px;
+	font-size: 1.5em;
+	color: #ff6000;
+}
+.info1{
+	margin-top: 3%;
+	margin-left: 17%;
+}
+.age{
+	margin-top: -8%;
+	margin-left: 37%;
+}
+.sex{
+	margin-top: -8%;
+	margin-left: 37%;
+}
+.E_sex{
+	margin-top: 1.5%;
+	margin-left: 37%;
+}
+.E_age{
+	margin-top: 1.5%;
+}
+.E_ideal{
+	margin-top: -280px;
+	margin-left: 37%;
+}
+.E_demand{
+	margin-top: 0%;
+	margin-left: 37%;
+}
+.E_city{
+	margin-top: 1%;
+	margin-left: 37%;
+}
+.E_intro{
+	margin-top: 1%;
+}
+.E_photo{
+	margin-top: -190px;
+	margin-left: 37%;
+}
+.E_input1{
+	margin-top: 1.5%;
+	width: 12%;
+	height: 25px;
+}
+.E_input2{
+	margin-top: 1.5%;
+	width: 20%;
+	height: 25px;
+}
+.E_input3{
+	margin-left: 37%;
+	margin-top: 17px;
+	width: 20%;
+	height: 25px;
+}
+.E_input4{
+	margin-top: 17px;
+	width: 32%;
+	height: 120px;
+}
+.E_serve{
+	margin-left: 35%;
+	margin-top: 170px;
+	width: 8%;
+	height: 40px; 
+	font-size: 1.1em;
+	background-color: #ff6000;
+}
+
+

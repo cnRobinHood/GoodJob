@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="goodjob">
+    <output-path>$USER_HOME$/test</output-path>
+    <root id="archive" name="goodjob.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GoodJob" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="GoodJob/web/Web" />
+    </root>
+  </artifact>
+</component>

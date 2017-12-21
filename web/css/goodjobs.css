@@ -1,0 +1,95 @@
+/*头部*/
+div,p,body,form{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none; 
+	color:black;
+}
+.Llogo_h{
+	width: 9%;
+	margin-left: 15%;
+	margin-top: 15px;
+}
+.head{
+	margin-top: 1.5%;
+	height: 8px;
+	background-color: #ff9800;
+}
+.logo{
+	width: 100%;
+}
+.title{
+	margin-left: 27%;
+	margin-top: -50px;
+	font-size: 1.4em;
+	color: #0f78ba;
+}
+.home{
+	font-size: 1.1em;
+	margin-left: 70%;
+	margin-top: -60px;
+}
+.login{
+	font-size: 1.1em;
+	margin-left: 78%;
+	margin-top: -23px;
+}
+/*搜索框*/
+.marry{
+	width: 100%;
+	height: 320px;
+	margin-top: 3%;
+}
+.search{
+	position: absolute;
+	clear: both;
+	margin-left: 30%;
+	margin-top: -16%;
+	width: 40%;
+	height: 40px;
+}
+.do{
+	position:absolute; 
+	margin-top: -16%;
+	margin-left: 62.2%;
+	width: 8%;
+	height: 45px;
+	border: none;
+	background-color: #ff9800;
+	font-size: 1.2em;
+}
+.main{
+	margin-top: -2%;
+	height: 650px;
+	background-color: #dbe8f0;
+}
+.forYou{
+	position: absolute;
+	border: 1px solid #b4b4b4;
+	margin-top: 2.5%;
+	margin-left: 16%;
+	height: 440px;
+	width: 65%;
+	background-color: white;
+}
+.for{
+	margin-left: 5%;
+	margin-top: 2%;
+	color: #ff681d;
+	font-size: 1.3em;
+	
+}
+.lit{
+	float: left;
+	margin-left: 2.2%;
+	margin-top: 2.2%;
+	border: 1px solid #b4b4b4;
+	height: 100px;
+	width: 30%;
+}
+.show{
+	margin-top: -12%;
+	margin-left: 13%;
+}

@@ -1,0 +1,90 @@
+/*头部*/
+div,p,body,form{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none; 
+	color:black;
+}
+.Llogo_h{
+	width: 9%;
+	margin-left: 15%;
+	margin-top: 15px;
+}
+.head{
+	height: 8px;
+	background-color: #ff9800;
+}
+.logo{
+	width: 100%;
+}
+.home{
+	font-size: 1.1em;
+	margin-left: 70%;
+	margin-top: -60px;
+}
+.login{
+	font-size: 1.1em;
+	margin-left: 78%;
+	margin-top: -23px;
+}
+/*中间*/
+.mainL{
+	margin-top: 3%;
+	width: 10%;
+	height: 500px;
+	background-color: #b4b4b4;
+}
+.mainM{
+	margin-left: 10%;
+	margin-top: -500px;
+	width: 70%;
+	height: 500px;
+	background-color: #d5d5d5;
+}
+.mainR{
+	margin-left: 80%;
+	margin-top: -500px;
+	width: 20%;
+	height: 500px;
+	background-color: #b4b4b4;
+}
+.reg{
+	margin-left: 30%;
+	margin-top: -460px;
+	font-size: 1.5em;
+	color: #ff6000;
+}
+
+.M_user{
+	margin-left: 31%;
+	margin-top: 30px;
+}
+.M_input{
+	margin-left: 31%;
+	width: 28%;
+	height: 33px;
+}
+.M_pass{
+	margin-left: 31%;
+	margin-top: 32px;
+}
+.M_passw{
+	margin-left: 31%;
+	margin-top: -15px;
+	width: 28%;
+	height: 33px;
+}
+.M_login{
+	margin-left: 31%;
+	margin-top: 60px;
+	width: 28.5%;
+	height: 40px; 
+	font-size: 1.1em;
+	background-color: #ff6000;
+}
+.next{
+	color: white;
+}
+
