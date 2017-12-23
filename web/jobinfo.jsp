@@ -6,8 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@page import="entities.CompanyInfo"%>
-<%@page import="java.util.List"%>
+<%@page import="entities.CompanyInfo" %>
+<%@page import="java.util.List" %>
 
 <!DOCTYPE html>
 <html>
@@ -30,30 +30,34 @@
 </div>
 <!-- 搜索框 -->
 <div>
-    <img class="marry" src="image/marry.jpg">
-    <input type="text" name="" class="search" placeholder="请输入关键字">
-    <button class="do">搜索</button>
+    <form method="get" action="searchJobServlet">
+        <img class="marry" src="image/marry.jpg">
+        <input type="text" name="keyword" class="search" placeholder="请输入关键字">
+        <button class="do">搜索</button>
+    </form>
 </div>
 <!-- 为你优选 -->
 <div class="main">
     <div class="forYou">
 
         <p class="for">为你优选</p>
-        <div class='lit'><p>
-        <%
 
+        <%
+            StringBuffer buffer = new StringBuffer();
             List<CompanyInfo> companyInfoList = (List<CompanyInfo>) request.getAttribute("companyinfo");
             if (companyInfoList != null && companyInfoList.size() != 0) {
-                for (CompanyInfo companyInfo:companyInfoList
+                for (CompanyInfo companyInfo : companyInfoList
                         ) {
-                    out.print("</br>"+companyInfo.getPosition()+"&nbsp;&nbsp;"+companyInfo.getSalary()+"</br>"+companyInfo.getCompanyName()+"&nbsp;&nbsp;"+companyInfo.getCompanyAddr());
+                    buffer.append("<div class='lit'><p></br>" + companyInfo.getPosition() + "&nbsp;&nbsp;" + companyInfo.getSalary() + "</br>" + companyInfo.getCompanyName() + "&nbsp;&nbsp;" + companyInfo.getCompanyAddr() + "</p></div>");
 
                 }
+                out.print(buffer.toString());
+
             }
 
 
         %>
-        </p></div>
+
         <div class="lit"></div>
         <div class="lit"></div>
         <div class="lit"></div>

@@ -35,5 +35,13 @@
         <servlet-name>jobinfoServlet</servlet-name>
         <url-pattern>/jobinfoServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>searchJobServlet</servlet-name>
+        <servlet-class>servlets.SearchJobServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchJobServlet</servlet-name>
+        <url-pattern>/searchJobServlet</url-pattern>
+    </servlet-mapping>
 
 </web-app>

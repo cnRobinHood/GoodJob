@@ -29,4 +29,14 @@ public class CompanyInfoDao {
         }
         return null;
     }
+
+//    public List<CompanyInfo> searchCompanyInfo(String keywords[]) {
+//        Session session = factory.openSession();
+//        Transaction transaction = session.beginTransaction();
+//        List<CompanyInfo> companyInfoList;
+//        String hql =
+//                "select companyInfo from CompanyInfo companyInfo where companyInfo.position=:position and companyInfo.companyAddr=:city and companyInfo.salary=:salary";
+//        Query query = session.createQuery(hql);
+//
+//    }
 }
